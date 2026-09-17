@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+#new {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#ft_list {
+    margin-top: 20px;
+}
+
+.todo {
+    padding: 15px;
+    margin-bottom: 5px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+}
