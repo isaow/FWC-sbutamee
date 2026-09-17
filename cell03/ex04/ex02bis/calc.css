@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    margin-top: 100px;
+}
+
+input,
+select {
+    padding: 5px;
+    margin: 5px;
+}
+
+#calculate {
+    cursor: pointer;
+}
