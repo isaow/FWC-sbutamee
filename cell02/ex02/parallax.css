@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+}
+
+.image1,
+.image2 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 {
+    background-image: url("https://images.litter-robot.com/media/wysiwyg/ragdoll4.png");
+}
+
+.image2 {
+    background-image: url("https://images.litter-robot.com/media/wysiwyg/siamese-cat5_1.png");
+}
+
+.black {
+    height: 100vh;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: white;
+    font-size: 25px;
+}
