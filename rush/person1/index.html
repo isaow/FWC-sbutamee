@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Niratchapol Klinkajon</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz@0,17..18;1,17..18&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="niratchapol.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-name">Niratchapol Klinkajon</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<br><br><br>
+<main>
+
+  <section id="about">
+    <div class="about-row">
+      <img src="img/pat.png" alt="" class="imgavatar">
+      <div>
+        <h1 id="randomcolor">Niratchapol Klinkajon</h1>
+        <p class="tagline">An IT KMITL Student in the academic year 2026.</p>
+      </div>
+    </div>
+    <div class="about-text">
+      <p>This sounds like it will likely be a tech and stuffs portfolio right? Nope. Today I'll be presenting my own art and creative experience, which might be the other possible choice if I haven't gotten in to School of Information Technology.</p>
+      <p>I've been drawing since high-school, a lot of them were character illustration, background arts, and some animations are also included. I've been quite busy with works and such that I've rarely posted any art. Although from all of those reasons, I've been planning a webtoon recently and I hope it would be able to air anytime soon!</p>
+    </div>
+  </section>
+
+  <section id="work">
+    <h2>Works</h2>
+
+    <div class="project">
+      <div class="project-gallery">
+        <img src="img/bgcolored.png" alt="Commissioned character illustration sample" class="project-img">
+        <img src="img/bd.png" alt="Commissioned character illustration sample" class="project-img">
+        <img src="img/pertstudent.png" alt="Commissioned character illustration sample" class="project-img">
+        <img src="img/void.png" alt="Commissioned character illustration sample" class="project-img">
+      </div>
+      <h3>Art commissions</h3>
+      <p>I've always been desperate to make money, by that I tried to open for commissions. It all started with me reaching out to my friends to use their Original Characters for the samples. As I do it, I got lazier and lazier. In the end, I've never really opened up for any commission. If you're interested, feel free to contact me!</p>
+      <div class="tags">
+        <span class="tag">Illustration</span>
+        <span class="tag">Commission</span>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-gallery">
+        <img src="img/pertbasketball.png" alt="Our Little Story cover art" class="project-img">
+        <img src="img/bas.png" alt="Our Little Story cover art" class="project-img">
+        <img src="img/bench.png" alt="Our Little Story cover art" class="project-img">
+        <img src="img/nont.png" alt="Our Little Story cover art" class="project-img">
+      </div>
+      <h3>Our little story <i>(coming soon!)</i></h3>
+      <p>A simple story about two highschool students who have just met by a coincidence, turning into friends, best friends, and boyfriends. But in their life story, there's always some kind of obstacle to get through. Want to find out more? The story will unveil soon!</p>
+      <div class="tags">
+        <span class="tag">Comics</span>
+        <span class="tag">Illustration</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Get in touch</h2>
+    <div class="contact-links">
+      <a href="mailto:niratchapolkkj@gmail.com">Email <span class="arrow">niratchapolkkj@gmail.com</span></a>
+      <a href="https://www.facebook.com/patpalatpatto" target="_blank" rel="noopener">Facebook <span class="arrow">พะ ละลัดพัด</span></a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  niklinka
+</footer>
+
+<script>
+  const button=document.getElementById("randomcolor");
+
+  function randomColor() {
+      const letters = 'CDEF';
+      let color = '#'
+      for (let i=0; i<6; i++) {
+          color += letters[Math.floor(Math.random() * 4)]
+      }
+      return color;
+  }
+
+  button.addEventListener('click', function() {
+      document.body.style.backgroundColor = randomColor();
+  })
+</script>
+
+</body>
+</html>

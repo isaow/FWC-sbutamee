@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nook Nick cv</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAV BAR -->
+    <nav class="navbar">
+
+        <!-- Logo -->
+        <div class="logo">
+            <div class="logo-text">Nook Nick</div>
+        </div>
+
+        <!-- Menu -->
+        <div class="menu">
+            <a href="#about">about</a>
+            <a href="#showcase">showcase</a>
+            <a href="#contact">contact</a>
+        </div>
+    </nav>
+
+    <!-- INTRO -->
+    <section class="intro">
+
+        <!-- Text -->
+        <div class="intro-text">
+            <p>Hello everyone!</p>
+
+            <h1>
+                I'm Saowaluck<br>
+                Butamee
+            </h1>
+
+            <p>and this is my portfolio</p>
+        </div>
+
+        <div class="goback">
+            <a href="../home.html">← Go back</a>
+        </div>
+
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="about" id="about">
+
+        <h2>About me</h2>
+
+        <div class="about-content">
+
+            <!-- รูป -->
+            <div class="about-image">
+                <img src="about me.jpg" alt="My photo">
+            </div>
+
+            <!-- ข้อความ -->
+            <div class="about-text">
+                <h3>Know a little bit about myself</h3>
+
+                <p>
+                    My name is Saowaluck Butamee. <br>
+                    You can call me Nook Nick.
+                </p>
+
+                <p>
+                    I'm a 2nd year IT student at KMITL, <br> majoring in Data Science and Business Analytics (DSBA).
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SHOWCASE -->
+    <section class="showcase" id="showcase">
+
+        <h2>Showcase</h2>
+
+        <!-- Skills -->
+        <div class="skills">
+            <h3>Skills & Technologies</h3>
+
+            <div class="skill-list">
+
+                <div class="skill">
+                    <div class="skill-icon">&lt;/&gt;</div>
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-icon">JS</div>
+                    <p>Node.js</p>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-icon">HTML</div>
+                    <p>HTML</p>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-icon">CSS</div>
+                    <p>CSS</p>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-icon">SQL</div>
+                    <p>SQL</p>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-icon">R</div>
+                    <p>R</p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Projects -->
+        <div class="projects">
+
+            <h3>Project</h3>
+
+            <div class="project-list">
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="pj1.png" alt="Project 1">
+                    </div>
+                    <h4>Project 01</h4>
+                    <p>
+                        A website that explains CPU concepts, components,
+                        functions, and performance in an easy-to-understand way.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="pj2.png" alt="Project 2">
+                    </div>
+                    <h4>Project 02</h4>
+                    <p>A system for managing books, including adding, editing, and deleting book information.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="pj3.png" alt="Project 3">
+                    </div>
+                    <h4>Project 03</h4>
+                    <p>A simple vocabulary app for adding and managing words and their meanings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+        <script>
+            const copyright = document.createElement("div");
+
+            copyright.className = "copyright";
+            copyright.textContent = "© sbutamee 2026";
+            
+            const footer = document.querySelector(".footer");
+            footer.appendChild(copyright);
+        </script>
+
+        <div class="connect">
+            <span>Let's connect</span>
+            <a href="https://www.facebook.com/share/189vKVcENL/" target="_blank" rel="noopener noreferrer">
+                <img src="https://static.vecteezy.com/system/resources/previews/021/495/960/large_2x/facebook-logo-icon-free-png.png">
+            </a>
+            <a href="https://www.instagram.com/sputnnickkkk?stkn=d3p0YXNrMWxvdDAz&utm_source=qr" target="_blank" rel="noopener noreferrer">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg?utm_source=th.wikipedia.org&utm_campaign=index&utm_content=original">
+            </a>
+            <a href="https://github.com/isaow/FWC-sbutamee" target="_blank" rel="noopener noreferrer">
+                <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub">
+            </a>
+        </div>
+
+    </footer>
+</body>
+</html>
